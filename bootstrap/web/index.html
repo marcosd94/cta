@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Plantilla básica de Bootstrap</title>
+        <script type="text/javascript" src="js/codigo3.js"></script>
+
+        <!-- CSS de Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+
+    </head>
+    <body>
+
+
+        <!-- Formularios -->
+        <div class="container">
+            <form action="AccesoPermitido.jsp" method="post" name="formu" id="formu"
+                  onsubmit="return comprobar()">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="nombre1">Tu nombre:</label>
+                        <input type="text" class="form-control" name="nombre" value=""><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="edad1">Tu edad:</label>
+                        <input type="text" class="form-control"  name="edad" value="" size="2" maxlength="2"><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="submit" class="btn btn-primary center-block" value=" Entrar ">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Librería jQuery requerida por los plugins de JavaScript -->
+        <script src="js/JQuery.js"></script>
+
+        <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+             incluir archivos JavaScript individuales de los únicos
+             plugins que utilices) -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+

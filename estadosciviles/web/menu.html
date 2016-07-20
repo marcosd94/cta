@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="image/favicon.png"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head><body>
+        <div id="confirmar"></div>
+        <div id="buscar"></div>
+        <div id="panelPrograma" class="panel panel-primary"> 
+            <div class="panel-heading centrado">Menu EstadosCiviles | <span id="susuario_usuario">Marcos Peralta</span></div>
+            <div class="panel-footer centrado"> 
+                <button id="botonAbm" type="button" class="btn btn-primary btn-sm">Ir a ABM Estados</button>
+            </div>
+        </div>
+        <div id="mensajes" class="well well-sm centrado">Mensaje del Sistema. </div>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/funciones.js" type="text/javascript"></script>
+        <script>
+                                $("#botonAbm").on('click', function () {
+                                    location.href = "frm/archivos/estadociviles/index.html";
+                                });
+        </script>
+
+
+
+
+
+    </body>
+</html>
